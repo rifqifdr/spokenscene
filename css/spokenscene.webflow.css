@@ -179,6 +179,18 @@
   display: none;
 }
 
+.image-cover {
+  height: 232px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 479px) {
   .hero-container {
     max-width: none;
@@ -260,5 +272,9 @@
     display: block;
     margin-bottom: 20px;
     font-size: 14px;
+  }
+
+  .image-cover {
+    height: auto;
   }
 }
