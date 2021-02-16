@@ -191,6 +191,10 @@
   object-fit: cover;
 }
 
+.paragraph-2 {
+  display: none;
+}
+
 @media screen and (max-width: 479px) {
   .hero-container {
     max-width: none;
