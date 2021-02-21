@@ -1,50 +1,9 @@
 {
-  "short_name": "spoken_scene",
   "name": "Spoken Scene",
-  "icons": [
-    {
-      "src": "https://uploads-ssl.webflow.com/6022a43035d4e25767b33e04/6027984ca09dbb06cbc85150_spokenscene-png.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "https://uploads-ssl.webflow.com/6022a43035d4e25767b33e04/602c1edef83b7660ce85330e_51MBOtbg0zL._SL500_%20(1).jpg",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": "/?source=pwa",
-  "background_color": "#3367D6",
-  "display": "standalone",
-  "scope": "/",
-  "theme_color": "#3367D6",
-  "shortcuts": [
-    {
-      "name": "Spoken Scene",
-      "short_name": "spoken_scene",
-      "description": "Favorite War Stories",
-      "url": "/today?source=pwa",
-      "icons": [{ "src": "https://uploads-ssl.webflow.com/6022a43035d4e25767b33e04/6027984ca09dbb06cbc85150_spokenscene-png.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "Spoken Scene",
-      "short_name": "spoken_scene",
-      "description": "Favorite War Stories",
-      "url": "/tomorrow?source=pwa",
-      "icons": [{ "src": "https://uploads-ssl.webflow.com/6022a43035d4e25767b33e04/6027984ca09dbb06cbc85150_spokenscene-png.png" }]
-    }
-  ],
-  "description": "Favorite War Stories",
-  "screenshots": [
-    {
-      "src": "https://uploads-ssl.webflow.com/6022a43035d4e25767b33e04/602c1edef83b7660ce85330e_51MBOtbg0zL._SL500_%20(1)",
-      "type": "image/png",
-      "sizes": "540x720"
-    },
-    {
-      "src": "https://uploads-ssl.webflow.com/6022a43035d4e25767b33e04/602c1edef83b7660ce85330e_51MBOtbg0zL._SL500_%20(1)",
-      "type": "image/jpg",
-      "sizes": "540x720"
-    }
-  ]
+  "short_name": "spoken_scene",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "browser",
+  "scope": "/podcast",
+  "start_url": "/spokenscene.rifqifadh.xyz/"
 }
