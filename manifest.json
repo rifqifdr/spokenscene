@@ -1,9 +1,0 @@
-{
-  "name": "Spoken Scene",
-  "short_name": "spoken_scene",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
-  "display": "browser",
-  "scope": "/podcast",
-  "start_url": "/spokenscene.rifqifadh.xyz/"
-}
