@@ -407,7 +407,7 @@
 
     <script type="text/javascript">
         const authorizerRef = new authorizerdev.Authorizer({
-            authorizerURL: `https://authorizer-production-4562.up.railway.app`,
+            authorizerURL: `sindikasi.up.railway.app`,
             redirectURL: window.location.origin,
             clientID: 'a2621878-3306-472c-a382-2ce18e376825', // obtain your client id from authorizer dashboard
         })
@@ -416,7 +416,7 @@
         const logoutBtn = document.getElementById('logout')
         logoutBtn.addEventListener('click', async function() {
             await authorizerRef.logout()
-            window.location.href = '/'
+            window.location.href = '/protected.html'
         })
 
         async function onLoad() {
